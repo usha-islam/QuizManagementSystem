@@ -48,7 +48,7 @@ This is a simple **role-based Java Quiz Management System**.
   - Password: `1234`  
 
 - **Student:**  
-  - Username: `student`  
+  - Username: `usha`  
   - Password: `1234`  
 
 ---
@@ -59,5 +59,5 @@ This is a simple **role-based Java Quiz Management System**.
 ```json
 [
   { "username": "admin", "password": "1234", "role": "admin" },
-  { "username": "student", "password": "1234", "role": "student" }
+  { "username": "usha", "password": "1234", "role": "student" }
 ]
