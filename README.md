@@ -1,0 +1,63 @@
+# Quiz Management System
+
+## Description
+This is a simple **role-based Java Quiz Management System**.  
+- **Admin** users can add multiple-choice questions (MCQs) to the question bank.  
+- **Student** users can take a quiz based on the question bank.  
+- Data is stored in **JSON files** (`users.json` and `quiz.json`).  
+- UI is built using **Java Swing**, no console input required.
+
+---
+
+## Features
+
+### Admin
+- Login with username/password from `users.json`  
+- Add multiple-choice questions (MCQs) to `quiz.json`  
+- Continuous question addition until admin chooses to exit  
+
+### Student
+- Login with username/password from `users.json`  
+- Take a quiz with **10 random questions** from question bank  
+- Each correct answer gives **1 mark**, no negative marking  
+- Score and performance message displayed at the end
+
+---
+
+## Tech Stack
+- **Language:** Java  
+- **Data Storage:** JSON files (`users.json` & `quiz.json`)  
+- **UI:** Java Swing  
+
+---
+
+## Setup & Run
+
+1. Open the project in your preferred IDE (e.g., IntelliJ IDEA)  
+2. Make sure **`users.json`** and **`quiz.json`** are in the project root  
+3. Run **`Main.java`**  
+4. Login as **Admin** or **Student**  
+5. Follow UI instructions to add questions or take the quiz  
+
+---
+
+## Users (Sample)
+
+- **Admin:**  
+  - Username: `admin`  
+  - Password: `1234`  
+
+- **Student:**  
+  - Username: `student`  
+  - Password: `1234`  
+
+---
+
+## JSON Files
+
+### users.json
+```json
+[
+  { "username": "admin", "password": "1234", "role": "admin" },
+  { "username": "student", "password": "1234", "role": "student" }
+]
